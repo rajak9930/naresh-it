@@ -11,6 +11,7 @@ import EventKeybordComponent from "./components/event-component/event-keybord-co
 import EventButtonComponent from "./components/event-component/event-button-component";
 import EventTimeComponent from "./components/event-component/event-time-component";
 import EmiCalculatorComponent from "./components/emi-calculator/emi-calculator-component";
+import TableComponent from "./components/table-component/table-component";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +24,7 @@ root.render(
     {/* <EventKeybordComponent/> */}
     {/* <EventButtonComponent/> */}
     {/* <EventTimeComponent/> */}
-    <EmiCalculatorComponent />
+    {/* <EmiCalculatorComponent /> */}
+    <TableComponent field={["ID", "Name", "Email", "Phone"]} data={[{id:'1',name:'rr',email:'rk@gmail.com',phone:'12334'}]} />
   </React.StrictMode>
 );
