@@ -10,6 +10,7 @@ import EventMouseComponent from "./components/event-component/event-mouse-compon
 import EventKeybordComponent from "./components/event-component/event-keybord-component";
 import EventButtonComponent from "./components/event-component/event-button-component";
 import EventTimeComponent from "./components/event-component/event-time-component";
+import EmiCalculatorComponent from "./components/emi-calculator/emi-calculator-component";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
     {/* <EventMouseComponent /> */}
     {/* <EventKeybordComponent/> */}
     {/* <EventButtonComponent/> */}
-    <EventTimeComponent/>
+    {/* <EventTimeComponent/> */}
+    <EmiCalculatorComponent />
   </React.StrictMode>
 );
