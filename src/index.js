@@ -12,6 +12,8 @@ import EventButtonComponent from "./components/event-component/event-button-comp
 import EventTimeComponent from "./components/event-component/event-time-component";
 import EmiCalculatorComponent from "./components/emi-calculator/emi-calculator-component";
 import TableComponent from "./components/table-component/table-component";
+import FormValidationComponent from "./components/form-validation/form-validation-component";
+import FormikValidation from "./components/form-validation/Formik-validation";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,6 +27,11 @@ root.render(
     {/* <EventButtonComponent/> */}
     {/* <EventTimeComponent/> */}
     {/* <EmiCalculatorComponent /> */}
-    <TableComponent field={["ID", "Name", "Email", "Phone"]} data={[{id:'1',name:'rr',email:'rk@gmail.com',phone:'12334'}]} />
+    {/* <TableComponent
+      field={["ID", "Name", "Email", "Phone"]}
+      data={[{ id: "1", name: "rr", email: "rk@gmail.com", phone: "12334" }]}
+    /> */}
+    {/* <FormValidationComponent/> */}
+    <FormikValidation />
   </React.StrictMode>
 );
