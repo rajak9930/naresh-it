@@ -14,6 +14,7 @@ import EmiCalculatorComponent from "./components/emi-calculator/emi-calculator-c
 import TableComponent from "./components/table-component/table-component";
 import FormValidationComponent from "./components/form-validation/form-validation-component";
 import FormikValidation from "./components/form-validation/Formik-validation";
+import ReducerDemo from "./components/reducer-demo/reducer-demo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,6 +33,7 @@ root.render(
       data={[{ id: "1", name: "rr", email: "rk@gmail.com", phone: "12334" }]}
     /> */}
     {/* <FormValidationComponent/> */}
-    <FormikValidation />
+    {/* <FormikValidation /> */}
+    <ReducerDemo/>
   </React.StrictMode>
 );
