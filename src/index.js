@@ -15,7 +15,7 @@ import TableComponent from "./components/table-component/table-component";
 import FormValidationComponent from "./components/form-validation/form-validation-component";
 import FormikValidation from "./components/form-validation/Formik-validation";
 import ReducerDemo from "./components/reducer-demo/reducer-demo";
-
+import CustomIndex from "./components/hooks/Custom-Index"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -34,6 +34,7 @@ root.render(
     /> */}
     {/* <FormValidationComponent/> */}
     {/* <FormikValidation /> */}
-    <ReducerDemo/>
+    {/* <ReducerDemo/> */}
+    <CustomIndex/>
   </React.StrictMode>
 );
